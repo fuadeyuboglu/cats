@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cats - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        body>footer {
+            margin-top: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Cats</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="retina-ai.html">Diabetic Retinopathy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Article 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Article 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-light py-5">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4">Welcome to Cats</h1>
+            <p class="lead mb-4">Exploring the fascinating world of felines and cutting-edge AI technology</p>
+            <a href="#articles" class="btn btn-primary btn-lg">Explore Articles</a>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Articles Section -->
+        <section id="articles" class="container my-5">
+            <h2 class="mb-4">Featured Articles</h2>
+            <div class="row g-4">
+                <article class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Google AI - Diabetic Retinopathy</h3>
+                            <p class="card-text">Discover how AI is revolutionizing healthcare and saving people's
+                                vision through early detection of diabetic retinopathy.</p>
+                            <a href="retina-ai.html" class="btn btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Coming Soon</h3>
+                            <p class="card-text">Stay tuned for more exciting articles about technology, innovation, and
+                                the world of cats.</p>
+                            <a href="#" class="btn btn-outline-secondary disabled">Read More</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Coming Soon</h3>
+                            <p class="card-text">More fascinating content is on its way. Check back soon for updates!
+                            </p>
+                            <a href="#" class="btn btn-outline-secondary disabled">Read More</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="bg-light py-5" id="about">
+            <div class="container">
+                <h2 class="mb-4">About This Project</h2>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <p class="lead">
+                            This website showcases real-world applications of computing and technology that make
+                            positive contributions to society.
+                        </p>
+                        <p>
+                            From AI-powered healthcare solutions that save lives to innovative technologies addressing
+                            global challenges, we highlight how computing is being used to improve people's lives and
+                            create meaningful social impact. Our goal is to demonstrate the power of technology when
+                            applied thoughtfully to solve real human problems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2025 Cats. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>Built with <a href="https://getbootstrap.com/">Bootstrap</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
